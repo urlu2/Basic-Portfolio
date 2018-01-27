@@ -1,0 +1,145 @@
+css
+
+useless {}
+
+body{
+    background-color:grey;
+    margin: 0px;
+}
+
+a {
+    color: gray;
+}
+
+.name {
+    float:left;
+    margin-left: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color:whitesmoke;
+    background-color: grey;
+}
+.links {
+    float: right;
+    margin-right: 200px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.taskbar {
+    padding-top: 80px;
+    background-color: lightgray;
+}
+
+.aboutme {
+    float: left;
+    position: relative;
+    width: 800px;
+    border: 2px solid darkgray;
+    margin-top: 50px;
+    margin-left: -200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=text2] {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.portimg {
+    padding-left:40px;
+    padding-right:20px;
+    padding-bottom: 30px;
+}
+
+.form2 {
+    width: 600px;
+    height: 100px;
+}
+
+.aboutmetitle {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: rgb(100, 100, 100);
+}
+
+hr {
+    height: 2px;
+    background-color: lightgray;
+    border: 0px;
+}
+
+.mePic {
+    float: left;
+    padding-right: 20px;
+}
+
+.paragraph {
+    margin-top: 0px;
+    padding-right: 40px;
+    font-size: 20px;
+    color: rgb(77, 77, 77);
+}
+
+.connect {
+    float: left;
+    position: relative;
+    width: 300px;
+    border: 2px solid darkgray;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.connecttitle {
+    text-align: center;
+    color: rgb(100, 100, 100);
+
+}
+
+.connectimg1 {
+    padding-left:40px;
+    padding-right:10px;
+}
+
+.connectimg2 {
+    padding-left:0px;
+    padding-right:10px;
+}
+
+.connectimg3 {
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    border-top: 6px solid lightgray;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(100, 100, 100);
+
+}
+
+.footertext {
+    padding-top: 10px;
+    text-align:center;
+    color: white;
+}
