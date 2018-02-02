@@ -1,56 +1,70 @@
-<html>
-    <body>
-        <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./uribeCSS.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="taskbar">
 
-        <link rel="stylesheet" type="text/css" href="./aboutme.css">
-            
-        </head>
+        <div class="nameBox">
+            <p class="myname">Luis Uribe</p>
+        </div>
 
-            <div class="name">
-                <h1>Luis Uribe</h1>
-                </div>
-
-            <div class="links">
-                <a href="./aboutme.html">About |</a>
-                <a href="./portfolio.html">Portfolio  | </a>
-                <a href="./contact.html">Contact</a>
+        <p class="tasklinks">
+            <a href="./aboutme.html">About&ensp;|&ensp;</a>
+            <a href="./portfolio.html">Portfolio&ensp;|&ensp;</a> 
+            <a href="./contact.html">Contact</a>
+        </p>
+    </div>
+    <div class="infobox">
+        <p class="infotitle">Contact</p>
+        <hr>
+        <form>
+            <label for="uname">Name:</label>
+            <br>
+            <input type="text" class="uname" name="username" placeholder="John Lasseter">
+            <br>
+            <label for="umail">E-Mail:</label>
+            <br>
+            <input type="text" class="umail" name="usermail" placeholder="john@icloud.com">
+            <br>
+            <label for="umessage">Message:</label>
+            <br>
+            <input type="text" class="umessage" name="usermessage">
+        </form>
+        <a href="#"><div class="submitbutton">Submit</div></a>
+    </div>
+        
+    <div class="connect">
+            <p class="connecttitle">Connect With Me</p>
+            <hr>
+    
+            <div class="ntwkimg">
+                <a href="#">
+                    <img src="./assets/github.jpg" width="60px">
+                </a>
             </div>
-
-        <div class="taskbar">
+    
+            <div class="ntwkimg">
+                    <a href="#">
+                        <img src="./assets/linked.jpg" width="60px">
+                    </a>
+            </div>
+    
+            <div class="ntwkimg">
+                    <a href="#">
+                        <img src="./assets/stack.jpg" width="60px">
+                    </a>
+            </div>
         </div>
 
-        <div class= "aboutme">
-            <h1 class="aboutmetitle">Contact</h1>
-            <hr>
-            <br>
-            <p class="paragraph">
-                <form>
-                    <label for="fname">First Name</label>
-                    <input type="text">
-                    <label for="lname">E-mail</label>
-                    <input type="text">
-                    <label for="lname">Message</label>
-                    <input type="text2">
-
-                </form>
-            </p>
-        </div>
-
-        <div class="connect">
-            <h1 class="connecttitle">Connect with Me</h1>
-            <hr>
-            <br>
-            <img class="connectimg1" src="https://placehold.it/60x60">
-            <img class="connectimg2" src="https://placehold.it/60x60">
-            <img class="connectimg3" src="https://placehold.it/60x60">
-        </div>
-
-        <div class="footer">
-            <p class="footertext">Luis Uribe 2018</p>
-        </div>
-
-
-        </div>
-
-    </body>
+    <div class="footer">
+        <p class="footertitle">&copy; Luis Uribe 2018</p>
+    </div>
+    
+</body>
 </html>
